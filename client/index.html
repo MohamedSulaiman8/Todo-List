@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h2>Todo List</h2>
+        <label>Name:</label>
+        <input id="name-input" type="text">
+        <button id="add-button">Add Name</button>
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search by name">
+            <button class="search-btn">Search</button>
+        </div>
+        <table>
+            <thead>
+                <th>Task No.</th>
+                <th>Task</th>
+                <th>Date</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </thead>
+            <tbody class="table-body"></tbody>
+        </table>
+        <section hidden id="update-row">
+            <label>Name</label>
+            <input id="update-name-input" type="text">
+            <button id="update-row-btn">Update</button>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+
+body{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 203, 40);
+    font-weight: 100;
+}
+button:hover{
+    background-color: white;
+    color: rgb(244, 203, 40);
+}
+button{
+    cursor: pointer;
+    margin: 5px;
+    background-color: rgb(244, 203, 40);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(244, 203, 40);;
+    border-radius: 5px;
+}
+h2{
+    font-family: Impact;
+    color:rgb(244, 203, 40); 
+    font-weight: 100;
+}
+main{
+    height: max-content;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+.search{
+    margin-top: 20px;
+}
+table{
+    margin:50px auto;
+    font-weight: 100;
+}
+thead{
+    font-weight:50 ;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th,td{
+    padding:5px;
+}
